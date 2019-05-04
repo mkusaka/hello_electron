@@ -8,20 +8,13 @@
   "scripts": {
     "start": "electron .",
     "fmt": "prettier --write",
-    "build:dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "tsc"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
     "@types/node": "^12.0.0",
-    "babel-loader": "^8.0.5",
-    "file": "^0.2.2",
+    "@types/three": "^0.103.2",
     "prettier": "^1.17.0",
-    "system": "^2.0.1",
-    "ts-loader": "^5.4.5",
-    "typescript": "^3.4.5",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1"
+    "typescript": "^3.4.5"
   },
   "dependencies": {
     "electron": "^5.0.1",
