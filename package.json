@@ -6,9 +6,11 @@
   "author": "mkusaka <hinoshita1992@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "fmt": "prettier main.js --write"
   },
   "devDependencies": {
-    "electron": "^5.0.1"
+    "electron": "^5.0.1",
+    "prettier": "^1.17.0"
   }
 }
